@@ -15,7 +15,7 @@
     <Copyright>Copyright GitTools 2015-2019</Copyright>
     <PackageLicenseUrl>https://github.com/GitTools/GitTools.Core/blob/master/LICENSE</PackageLicenseUrl>
     <PackageIconUrl>https://raw.github.com/GitTools/GitTools.Core/master/GitTools_logo.png</PackageIconUrl>
-    <Version>1.3.1.1</Version>
+    <Version>1.3.1.2</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(TargetFramework)' == 'net461'">
@@ -26,7 +26,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LibGit2Sharp" Version="0.26.0-rc1" />
+    <PackageReference Include="LibGit2Sharp" Version="0.26.0" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net461'">
